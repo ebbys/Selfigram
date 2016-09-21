@@ -13,18 +13,16 @@ import Parse
 class ProfileViewController:UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     
-    
     @IBOutlet weak var profileImageView: UIImageView!
-    
-    
     @IBOutlet weak var usernameLabel: UILabel!
     
     
     
     @IBAction func cameraButtonPressed(sender: AnyObject) {
         
-        print("Camera Button Pressed")
+       
     }
+    
     
     
     override func viewWillAppear(animated: Bool) {
